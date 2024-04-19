@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente en la pantalla */
+    align-items: center; /* Centra verticalmente en la pantalla */
+    height: 100vh; /* Establece la altura del cuerpo al 100% de la altura de la ventana */
+    margin: 0; /* Elimina el margen predeterminado */
+    background-image: url('imagenes/fondo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir toda la pantalla sin distorsionarse */
+    background-position: center; /* Centra la imagen de fondo */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-container {
+    display: flex;
+  }
+  
+  .city-input {
+    width: 200px; /* Ancho del cuadro de entrada */
+    margin-right: 10px; /* Espacio a la derecha del cuadro de entrada */
+  }
+  
+  .search-button {
+    margin-top: 10px; /* Espacio superior */
+  }
+  
+  .weather-info {
+    margin-top: 10px; /* Espacio superior para el mensaje de clima */
+    padding: 10px; /* Espaciado interno */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo del mensaje de clima */
+    border-radius: 5px; /* Borde redondeado */
+  }
